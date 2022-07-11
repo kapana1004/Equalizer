@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+
+margin: 0;
+box-sizing:border-box;
+
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    margin: 0;
+    position: relative;
+    /* border: 2px solid red; */
+    
+}
+
+.bg-mobile{
+
+    width: 100%;
+}
+
+.sec1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: o;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 650px;
+}
+
+.equal{
+
+    width: 146px;
+    height: 32px;
+    position: absolute;
+    top: 40px;
+    left: 24px;
+
+}
+
+.head{
+
+    position: absolute;
+    top: 136px;
+    left: 24px;
+    width: 327px;
+}
+
+.title{
+
+    margin-bottom: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    color: rgba(25, 24, 38, 1);
+    font-style: bold;
+    Line-height: 48px;
+    letter-spacing: 1px;
+
+
+}
+
+.par1{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    Line-height: 26px;
+    /* margin-bottom: 166px; */
+    
+    
+
+
+
+
+}
+
+.sec2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+}
+.patern2{
+
+    display: flex;
+    background: black;
+    width: 100%;
+    position: relative;
+}
+
+.patern2{
+
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.midphoto{
+
+    margin-left: 48px;
+}
+
+.mobphoto {
+
+    width: 209px;
+    position: absolute;
+    top: -13%;
+
+}
+
+.middle{
+
+    display: flex;
+    flex-direction:column;
+    background: rgba(250, 116, 83, 1);
+    border-radius: 12px;
+    height: 546px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 64px;
+}
+
+.title2{
+
+    margin-top: 48px;
+    margin-left: 36px;
+    margin-bottom: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    color: rgba(252, 250, 249, 1);
+
+
+
+}
+
+.par2{
+
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(252, 250, 249, 1);
+    margin-bottom: 36px;
+
+
+}
+
+.spans{
+
+    display:flex;
+   
+    margin-bottom: 32px;
+}
+
+.dollar{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 36px;    
+    color: rgba(252, 250, 249, 1);
+
+}
+
+.month{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: rgba(252, 250, 249, 1);
+    padding-top: 28px;
+    padding-left: 16px;
+}
+    
+.appleicon{
+
+    display: flex;
+    justify-content: center;
+    width: 296px;
+    height: 61px;
+    background-color: rgba(25, 24, 38, 1);
+    color: rgba(252, 250, 249, 1);
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-bottom: 16px;
+
+}
+
+ .apple{
+
+    margin-top: 16px;
+}
+
+.ios{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 8px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    
+
+}
+
+.androidicon{
+
+    display: flex;
+    justify-content: center;
+    width: 296px;
+    height: 61px;
+    background-color: rgba(252, 250, 249, 1);
+    color: rgba(25, 24, 38, 1);
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-bottom: 48px;
+}
+
+.android{
+
+    margin-top: 16px;
+}
+
+.andro{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.last{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.equal2{
+
+    margin-left: 25px;
+    margin-bottom: 32px;
+    width: 146px;
+    height: 32px;
+}
+
+.par3{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: rgba(25, 24, 38, 1);
+    letter-spacing: 1px;
+        
+
+}
+.mail{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-left: 24px;
+    color: rgba(25, 24, 38, 1);
+    letter-spacing: 1px;
+    margin-bottom: 64px;
+
+
+
+}
+
+.icons{
+    display: flex;
+    padding-bottom: 80px;
+    margin-left: 24px;
+
+}
+
+.insta{
+
+    margin-left: 20px;
+    
+}
+
+.tweet{
+
+    margin-left: 20px;
+}
+
